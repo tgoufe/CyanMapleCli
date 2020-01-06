@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "cmui": "./index.js"
+    "cmui": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/tgoufe/CyanMapleCli/issues"
   },
-  "homepage": "http://www.bingshangroup.com"
+  "homepage": "http://www.bingshangroup.com",
+  "dependencies": {
+    "@vue/cli": "~4.1.1",
+    "commander": "~4.0.1",
+    "execa": "~3.4.0"
+  },
+  "devDependencies": {}
 }
